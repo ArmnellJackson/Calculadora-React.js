@@ -1,0 +1,21 @@
+:root {
+    --first-color: #EEEEEE;
+    --second-color: #32E0C4;
+    --third-color: #0D7377;
+    --fourth-color: #212121;
+  }
+
+.input {
+    height: 75px;
+    border-radius: 16px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-weight: bold;
+    font-size: 3rem;
+    background: var(--fourth-color);
+    color: var(--first-color);
+    padding: 11px 30px 11px 11px;
+    border: 1px solid var(--first-color);
+}

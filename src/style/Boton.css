@@ -1,0 +1,32 @@
+:root {
+    --first-color: #EEEEEE;
+    --second-color: #32E0C4;
+    --third-color: #0D7377;
+    --fourth-color: #212121;
+  }
+
+.boton-contenedor{
+    height: 83px;
+    display: flex;
+    flex: 1 1;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 3.8rem;
+    background: var(--fourth-color);
+    color: var(--first-color);
+    border-radius: 16px;
+    border: 2px solid var(--first-color);
+    margin: 4px;
+    cursor: pointer;
+    user-select: none;
+    transition: opacity .6s ease;
+}
+
+.operador {
+    background: var(--third-color);
+}
+
+.boton-contenedor:hover {
+    opacity: .7;
+}
