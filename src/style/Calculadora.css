@@ -6,8 +6,8 @@
   }
 
 .container {
-    width: 400px;
-    height: 600px;
+    width: 305px;
+    height: 505px;
     padding: 14px;
     background: var(--second-color);
     border-radius: 12px;
@@ -19,4 +19,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+@media (min-width: 417px) {
+    .container {
+        width: 400px;
+        height: 600px;
+    }
 }

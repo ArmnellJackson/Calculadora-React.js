@@ -6,7 +6,7 @@
   }
 
 .boton-contenedor{
-    height: 83px;
+    height: 63px;
     display: flex;
     flex: 1 1;
     justify-content: center;
@@ -29,4 +29,10 @@
 
 .boton-contenedor:hover {
     opacity: .7;
+}
+
+@media (min-width: 417px) {
+    .boton-contenedor {
+    height: 83px;
+    }
 }
